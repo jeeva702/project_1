@@ -6,7 +6,6 @@
 header{
     position: sticky;
     scroll-margin: 0px;
-    color: aquamarine;
 }
  nav ul{
     float: right;
@@ -106,7 +105,7 @@ body{
     justify-content: space-evenly;
     height: 150px;
 }
-@media (max-width:767px){
+@media (max-width:600px){
     ul{
         position: fixed;
         top:10%;
@@ -154,4 +153,15 @@ body{
         margin-bottom: 30px;
     }
 }
+@media (max-width:480;){    .class2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 300px;
+        padding-left: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+    .class2 .a1{margin-top:100;}
+        
+} 
  
